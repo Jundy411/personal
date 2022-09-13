@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+<!-- For Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- CDN fontAwesome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="J-logo.png" type="image/x-icon">   
+    <link rel="stylesheet" href="aos.css">
+    <script src="aos.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <!-- logo -->
+        <a href="#main" class="logo">
+            <img src="logo.png" alt="">
+        </a>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- hire me buttom -->
+        <a href="#contact" class="hire">
+            Hire Me
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </nav>
+    <!-- Landing Page -->
+    <section id="main" data-aos="fade-up">
+        <!-- text -->
+        <div class="main-text" >
+            <h1>Hi, I'm  Nobody</h1>
+            <p>Front End Developer</p>
+            <!-- button -->
+            <div class="main-buttons">
+                <a href="#" class="download-cv-buttons" id="cv">Download CV</a>
+                <a href="#contact" class="hire-me-buttons">Hire Me</a>
+            </div>
+        </div>
+        <!-- image -->
+        <div class="model">
+            <img src="landing-page.png" alt="" >
+        </div>
+    </section>
+
+    <!-- skill-page -->
+    <section id="skills" data-aos="fade-up">
+        <!-- skills - text - section -->
+        <div class="skill-text-section">
+            <!-- heading -->
+            <div class="skill-heading">
+                <span>My Skills</span>
+                <h2>My Experties</h2> 
+            </div>
+            <!-- skill - box - container -->
+            <div class="skill-container">
+                <!-- skill-box -->
+                <div class="skill-box">
+                    <!-- box-icon -->
+                    <div class="box-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <!-- box-text -->
+                    <div class="box-text">
+                        <strong>Hyper Text Markup Language(HTML)</strong>
+                        <p>i Have 2 Years Experience in HTML and I Completed 00+ HTML Project.</p>
+                        <!-- progress line -->
+                        <div class="progress-line html"><span></span></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <!-- box-icon -->
+                    <div class="box-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <!-- box-text -->
+                    <div class="box-text">
+                        <strong>Cascading Style Sheets(CSS)</strong>
+                        <p>i Have 2 Years Experience in CSS and I Completed 00+ CSS Project.</p>
+                        <!-- progress line -->
+                        <div class="progress-line css"><span></span></div>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <!-- box-icon -->
+                    <div class="box-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <!-- box-text -->
+                    <div class="box-text">
+                        <strong>Javascript(JS)</strong>
+                        <p>i Have 1 Years Experience in Javascript</p>
+                        <!-- progress line -->
+                        <div class="progress-line js"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- skill-image-section -->
+        <div class="skill-img">
+            <img src="skill-page.png" alt="">
+        </div>
+    </section>
+    <!-- introduction page -->
+    <section id="introduction" data-aos="fade-up">
+        <!-- heading -->
+        <div class="heading-introduction">
+            <strong>Self Introduction</strong>
+            <p>Hai, this is my introduction video </p>
+        </div>
+        <div class="video-introduction">
+            <iframe src="https://www.youtube.com/embed/H_lOqYO_Sgks" frameborder="0"></iframe>
+        </div>
+    </section>
+    
+    <!-- our services -->
+    <section id="services" data-aos="fade-up">
+        <!-- heading -->
+        <strong class="heading-services">Services</strong>
+        <!-- box container service -->
+        <div class="services-box-container">
+            <!-- box service -->
+            <div class="service-box" data-aos="fade-up">
+                <!-- icon -->
+                <i class="fas fa-code"></i>
+                <!-- title -->
+                <strong>Front-End</strong>
+                <!-- detail -->
+                <p>pengembang website yang menggunakan baris kode HTML, CSS, dan JavaScript untuk menghasilkan website dengan tampilan yang menarik.</p>
+            </div>
+            <!-- box service -->
+            <div class="service-box" data-aos="fade-up">
+                <!-- icon -->
+                <i class="fas fa-gamepad"></i>
+                <!-- title -->
+                <strong>UI/UX</strong>
+                <!-- detail -->
+                <p>Fokus desain UI adalah keindahan tampilan, sementara fokus desain UX adalah kepuasan menggunakan produk.</p>
+            </div>
+            <!-- box service -->
+            <div class="service-box" data-aos="fade-up">
+                <!-- icon -->
+                <i class="fas fa-drafting-compass"></i>
+                <!-- title -->
+                <strong>Graphic Designing</strong>
+                <!-- detail -->
+                <p>proses komunikasi menggunakan elemen visual, seperti tipografi, fotografi, serta ilustrasi untuk menciptakan presepsi akans suatu pesan yang disampaikan.</p>
+            </div>
+            <!-- box service -->
+            <div class="service-box" data-aos="fade-up">
+                <!-- icon -->
+                <i class="fas fa-cogs"></i>
+                <!-- title -->
+                <strong>Free Host</strong>
+                <!-- detail -->
+                <p>layanan online yang digunakan untuk mengelola data situs atau aplikasi web oleh pengguna dan ditampilkan melalui via internet.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hiring button -->
+    <section id="get-in-touch" data-aos="fade-up">
+        <span>Still not conviced for Hiring</span>
+        <a href="#">Get In Touch</a>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" data-aos="fade-up">
+        <!-- form -->
+        <form>
+            <!--fullname-->
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <!-- email -->
+            <input type="email" name="email" placeholder="Example@gmail.com" required>
+            <!-- tulis sesuatu -->
+            <textarea name="message" placeholder="Write Something..." required></textarea>
+            <!-- send button -->
+            <input type="submit" value="submit">
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <!-- copyright -->
+        <span class="copyright">
+            Copyright 2022 - JundyIslami
+        </span>
+        <!-- footer-social-media -->
+        <div class="footer-social">
+            <!-- facebook -->
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <!-- twitter -->
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <!-- instagram -->
+            <a href="#">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        AOS.init();
+        document.getElementById("cv").onclick = function(){
+            location.href='cv.jpg';
+        }
+    </script>
+</body>
+</html>
